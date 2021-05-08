@@ -1,1 +1,70 @@
-dddd
+<body id="main">
+    <head>
+<style>
+
+    .gmail-class{
+        font-size: small;
+        position: relative;
+        left: 600px;
+        bottom: -10px;                                                                              
+    }
+    .image-class{
+        font-size:small;
+        position: relative;
+        left: 610px;
+        bottom: -10px;
+    }
+    .center {
+        position: relative;
+        left: 250px;
+        right: 250px;
+        width: 150%;
+        
+    }
+
+    #main{
+        width:140;
+        height:140;
+    }
+
+    .searchbar{
+        position: relative;
+        left: 270px;
+        border-radius:20px;
+    }
+    .searchb{
+        position: relative;
+        left: 230px;
+        bottom: -50px;
+    }
+
+    .luckyb{
+        position: relative;
+        left: 350px;
+        bottom: -27px;
+
+    }
+
+    .apps{
+        position: relative;
+        left: 720;
+        bottom: 200;
+        height: 30px;
+        width: 30px;
+    }
+
+</style>
+
+    <a href="url" class="gmail-class">Gmail</a>
+    <a href="url" class="image-class">Images</a>
+    <img src="glogo.png" class="center">
+
+    <input type= "searchbar" placeholder="🔎" class="searchbar">
+
+    <button type="button" class="searchb">Google Search</button>
+    <button type="button" class="luckyb"> I'm Feeling Lucky</button>
+    <a href="url">
+        <img src="outline_apps_black_24dp.png" class="apps" >
+    </a>
+    </head>
+</body>
